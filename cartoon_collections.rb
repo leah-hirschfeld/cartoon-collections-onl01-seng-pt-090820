@@ -9,7 +9,7 @@ def summon_captain_planet(array)
   array.map! do |i| i.capitalize
   end
   array.each do |i|
-    array_exclimation << puts i.join("!")
+    array_exclimation << array[i].join("!")
   end
   array
 end
