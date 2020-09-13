@@ -5,9 +5,13 @@ def roll_call_dwarves(array)
 end
 
 def summon_captain_planet(array)
-  array.collect do |i|
-    i.uppercase
+  array_exclimation = []
+  array.map! do |i| i.capitalize
   end
+  array.each do |i|
+    array_exclimation << puts i.join("!")
+  end
+  array
 end
 
 def long_planeteer_calls# code an argument here
