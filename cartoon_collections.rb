@@ -17,11 +17,6 @@ end
 
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  array.detect do |i| 
-    if i = cheese_types
-      i
-    else 
-      puts "no"
-    end
+  array.detect do |i| i = cheese_types
   end
 end
