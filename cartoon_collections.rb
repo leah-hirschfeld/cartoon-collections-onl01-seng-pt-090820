@@ -22,5 +22,6 @@ def find_the_cheese(array)
       puts i
     else 
       puts "no"
+    end
   end
 end
