@@ -17,5 +17,6 @@ end
 
 def find_the_cheese(array)
   array.detect do |i| i == ["cheddar", "gouda", "camembert"]
+  puts i
   end
 end
